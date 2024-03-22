@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda</title>
+</head>
+<body>
+<h1>Agenda</h1>
+<form action="/agenda" method="get">
+        <input type="submit" value="Adicionar contato">
+        <%for(let i=0; i < contatos.length; i++){%>
+        <h3> Nome: <%=contatos[i].dbNome%></h3>
+        <p> E-mail: <%=contatos[i].dbEmail%></p>
+        <p> Telefone: <%=contatos[i].dbTelefone%></p>
+        <%}%>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+<h1>Home</h1>
+<img src="baixados.png">
+<div class="textos">
+<form action="/text" method="get">
+    <p> <%=textoFinal%> </p>
+    <input type="text" name="texto"><br>
+    <input type="submit" value="Salvar texto" name="salvarTexto">
+</form>
+    <form action="/salvarNoBD" method="get">
+        <input type="submit" value="Salvar texto no BD" name="salvarTexto">
+    </form>
+</div>
+</body>
+</html>

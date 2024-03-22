@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frases salvar no site</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+<h1>Home!!!</h1>
+<div class="textos">
+    <img src="img.gif" height="300px">
+    <p><%=textosalvo%></p>
+    <form action="/salvartexto" method="get">
+    <input type="text" name="texto"><br>
+    <input type="submit" value="Salvar texto">
+    </form>
+<form action="/IrparaServidor" method="get">
+    <input type="submit" value="Salvar o Servidor">
+</form>
+</div>
+
+
+</body>
+</html>

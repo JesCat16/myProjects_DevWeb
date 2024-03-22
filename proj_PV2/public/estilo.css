@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+.textos{
+    text-align: center;
+    font-size: 25px;
+}

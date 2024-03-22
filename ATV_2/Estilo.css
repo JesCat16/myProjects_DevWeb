@@ -1,0 +1,32 @@
+a:hover{
+    color: cyan;
+}
+td{
+    background-color: deepskyblue;
+}
+.avisos{
+    color: red;
+    font-size:12px;
+}
+a{
+    background-color: gold;
+}
+#home{
+    background-color: gold;
+    color: cyan;
+    text-align: center;
+}
+.texto{
+    margin-top:10pt;
+    font-size:25px;
+}
+.contato{
+    background-color: gold;
+}
+h3{
+    background-color: gold;
+}
+img{
+    background-color: gold;
+}
+

@@ -1,0 +1,18 @@
+body{
+    background-color: deepskyblue;
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.textos{
+    text-align: center;
+    font-size: 25px;
+}
+img{
+    display:block;
+    margin :auto;
+}
